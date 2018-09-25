@@ -19,8 +19,6 @@
     "onCommand:extension.migrate",
     "onCommand:extension.deploy",
     "onCommand:extension.manage"
-
-
   ],
   "main": "./extension",
   "contributes": {
@@ -68,7 +66,13 @@
     "vscode": "^1.1.21",
     "eslint": "^4.11.0",
     "@types/node": "^8.10.25",
-    "@types/mocha": "^2.2.42",
-    "copy-dir": "0.4.0"
+    "@types/mocha": "^2.2.42"
+  },
+  "dependencies": {
+    "copy-dir": "^0.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZedObaia/django-pyqt.git"
   }
 }
