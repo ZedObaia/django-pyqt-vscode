@@ -1,0 +1,74 @@
+{
+  "name": "django-pyqt",
+  "displayName": "django-pyqt",
+  "description": "Combine the power of Django and PyQt",
+  "version": "0.0.1",
+  "publisher": "zedObaia",
+  "engines": {
+    "vscode": "^1.27.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:extension.newProject",
+    "onCommand:extension.uic",
+    "onCommand:extension.rcc",
+    "onCommand:extension.startapp",
+    "onCommand:extension.makemigrations",
+    "onCommand:extension.migrate",
+    "onCommand:extension.deploy",
+    "onCommand:extension.manage"
+
+
+  ],
+  "main": "./extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.newProject",
+        "title": "Django-PyQt: New Project"
+      },
+      {
+        "command": "extension.uic",
+        "title": "Django-PyQt: uic convert"
+      },
+      {
+        "command": "extension.rcc",
+        "title": "Django-PyQt: rcc convert"
+      },
+      {
+        "command": "extension.startapp",
+        "title": "Django-PyQt: Start new app"
+      },
+      {
+        "command": "extension.makemigrations",
+        "title": "Django-PyQt: Make migrations"
+      },
+      {
+        "command": "extension.migrate",
+        "title": "Django-PyQt: Migrate"
+      },
+      {
+        "command": "extension.deploy",
+        "title": "Django-PyQt: Deploy via PyInstaller - Please read deployment instructions"
+      },
+      {
+        "command": "extension.manage",
+        "title": "Django-PyQt: Run a django manage.py command"
+      }
+    ]
+  },
+  "scripts": {
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "node ./node_modules/vscode/bin/test"
+  },
+  "devDependencies": {
+    "typescript": "^2.6.1",
+    "vscode": "^1.1.21",
+    "eslint": "^4.11.0",
+    "@types/node": "^8.10.25",
+    "@types/mocha": "^2.2.42",
+    "copy-dir": "0.4.0"
+  }
+}

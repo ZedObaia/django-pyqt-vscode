@@ -1,0 +1,14 @@
+{
+    "binding" : "pyqt5",
+    "paths" : 
+    {
+        "rcc" : "",
+        "uic" : ""
+    },
+    "django" : true,
+    "hidden-imports" : [],
+    "hidden-example" : ["http.cookies", "html.parser",
+        "settings", "django.template.defaulttags",
+        "django.templatetags.i18n", "django.template.loader_tags",
+        "django.utils.translation"]
+}
