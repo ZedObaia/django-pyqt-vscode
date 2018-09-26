@@ -2,6 +2,8 @@
 
 VScode extension for <a href="https://github.com/ZedObaia/django-pyqt">django-pyqt</a>
 
+> This is a tool to help you develop desktop applications using Python Qt bindings of your choice for the 'front end' with django ORM for the backend.
+
 ## Features
 
 Control your django-pyqt project from within Vscode
