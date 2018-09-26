@@ -2,7 +2,7 @@
   "name": "django-pyqt",
   "displayName": "django-pyqt",
   "description": "Combine the power of Django and PyQt",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "publisher": "zedObaia",
   "icon": "images/icon.png",
   "engines": {
@@ -12,7 +12,7 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:extension.init",
+    "onCommand:extension.configue",
     "onCommand:extension.newProject",
     "onCommand:extension.uic",
     "onCommand:extension.rcc",
@@ -26,7 +26,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "extension.init",
+        "command": "extension.configue",
         "title": "Django-PyQt: Configure django-pyqt - init"
       },
       {
@@ -79,7 +79,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ZedObaia/django-pyqt.git"
+    "url": "https://github.com/ZedObaia/django-pyqt-vscode"
   },
   "license" : "MIT" 
 

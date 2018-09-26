@@ -136,7 +136,7 @@ function runManageCommand(
 }
 
 function activate(context) {
-  let init_ = vscode.commands.registerCommand("extension.init", () =>
+  let init_ = vscode.commands.registerCommand("extension.configue", () =>
     configure()
   );
   let n_proj = vscode.commands.registerCommand(

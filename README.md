@@ -1,4 +1,4 @@
-# django-pyqt README
+# django-pyqt
 
 VScode extension for <a href="https://github.com/ZedObaia/django-pyqt">django-pyqt</a>
 
@@ -14,7 +14,7 @@ hit `Ctrl+Shift+P` and run one of the commands
 Read Instructions here
 <a href="https://github.com/ZedObaia/django-pyqt">django-pyqt</a> for information about how to configure these commands
 
-* `django-pyqt.init`: Configure the python interpreter
+* `django-pyqt.configure`: Configure the python interpreter
 * `django-pyqt.newProject`: Start new Project
 * `django-pyqt.uic`: Convert .ui files to .py files
 * `django-pyqt.rcc`: Convert .qrc files to .py files
@@ -33,7 +33,7 @@ Read Instructions here
 
 ### 0.0.9
 
-Initial release of <a href="https://github.com/ZedObaia/django-pyqt">django-pyqt</a> for vscode tested on linux and windows.
+Beta release of <a href="https://github.com/ZedObaia/django-pyqt">django-pyqt</a> for vscode tested on linux and windows.
 
 ### TODO
 
