@@ -2,8 +2,9 @@
   "name": "django-pyqt",
   "displayName": "django-pyqt",
   "description": "Combine the power of Django and PyQt",
-  "version": "0.0.1",
+  "version": "0.0.9",
   "publisher": "zedObaia",
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.27.0"
   },
@@ -11,6 +12,7 @@
     "Other"
   ],
   "activationEvents": [
+    "onCommand:extension.init",
     "onCommand:extension.newProject",
     "onCommand:extension.uic",
     "onCommand:extension.rcc",
@@ -23,6 +25,10 @@
   "main": "./extension",
   "contributes": {
     "commands": [
+      {
+        "command": "extension.init",
+        "title": "Django-PyQt: Configure django-pyqt - init"
+      },
       {
         "command": "extension.newProject",
         "title": "Django-PyQt: New Project"
