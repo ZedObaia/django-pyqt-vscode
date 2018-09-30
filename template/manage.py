@@ -31,7 +31,7 @@ def start_new_app(app_name):
         print("App with the same <{}> name already exists".format(app_name))
         return
     os.mkdir(dir_name)
-    temp_path = os.path.join("apps", app_name)
+    temp_path = os.path.join(appsDir, app_name)
     if app_name.islower():
         execute_django_command(["startapp", app_name.upper(), temp_path])
     elif app_name.isupper():

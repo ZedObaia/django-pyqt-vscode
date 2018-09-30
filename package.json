@@ -2,7 +2,7 @@
   "name": "django-pyqt",
   "displayName": "django-pyqt",
   "description": "Combine the power of Django and PyQt",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "publisher": "zedObaia",
   "icon": "images/icon.png",
   "engines": {
